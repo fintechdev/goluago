@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 )
 
 func TestVarargsFrom1(t *testing.T) {

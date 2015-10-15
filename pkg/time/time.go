@@ -1,7 +1,7 @@
 package time
 
 import (
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 	"time"
 )
 

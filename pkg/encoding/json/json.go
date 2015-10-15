@@ -2,8 +2,8 @@ package json
 
 import (
 	"encoding/json"
-	"github.com/Shopify/go-lua"
-	"github.com/Shopify/goluago/util"
+	"github.com/mtabini/go-lua"
+	"github.com/mtabini/goluago/util"
 )
 
 func Open(l *lua.State) {

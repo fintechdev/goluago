@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 	"net/url"
 )
 

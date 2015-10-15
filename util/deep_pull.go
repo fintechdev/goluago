@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 )
 
 func Open(l *lua.State) {
@@ -139,6 +139,8 @@ func toGoValue(l *lua.State, idx int) (interface{}, error) {
 		return lua.CheckInteger(l, idx), nil
 	case lua.TypeTable:
 		return pullTableRec(l, idx)
+	case lua.TypeBoolean:
+		return l.ToBoolean(idx), nil
 	default:
 		err := fmt.Errorf("pull table, unsupported type %s", lua.TypeNameOf(l, idx))
 		return nil, err

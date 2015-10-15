@@ -8,9 +8,9 @@ import (
 
 	luatesting "../pkg/testing"
 
-	"github.com/Shopify/go-lua"
-	"github.com/Shopify/goluago/util"
 	"github.com/bradfitz/iter"
+	"github.com/mtabini/go-lua"
+	"github.com/mtabini/goluago/util"
 )
 
 ////////////////////////

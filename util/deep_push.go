@@ -2,7 +2,7 @@ package util
 
 import (
 	"fmt"
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 	"reflect"
 )
 

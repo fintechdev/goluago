@@ -1,6 +1,6 @@
 package util
 
-import "github.com/Shopify/go-lua"
+import "github.com/mtabini/go-lua"
 
 func PullVarargs(l *lua.State, startIndex int) ([]interface{}, error) {
 	top := l.Top()

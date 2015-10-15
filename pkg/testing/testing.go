@@ -3,8 +3,8 @@ package testing
 import (
 	"testing"
 
-	"github.com/Shopify/go-lua"
-	"github.com/Shopify/goluago/util"
+	"github.com/mtabini/go-lua"
+	"github.com/mtabini/goluago/util"
 )
 
 func RunLuaTestString(t *testing.T, requireCallback func(l *lua.State), luaSource string) {

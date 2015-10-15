@@ -1,8 +1,8 @@
 package regexp
 
 import (
-	"github.com/Shopify/go-lua"
-	"github.com/Shopify/goluago/util"
+	"github.com/mtabini/go-lua"
+	"github.com/mtabini/goluago/util"
 	"regexp"
 )
 

@@ -1,7 +1,7 @@
 package env
 
 import (
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 	"os"
 )
 

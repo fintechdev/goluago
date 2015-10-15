@@ -2,7 +2,7 @@ package fmt
 
 import (
 	"fmt"
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 )
 
 func Open(l *lua.State) {

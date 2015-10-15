@@ -2,7 +2,7 @@ package base64
 
 import (
 	"encoding/base64"
-	"github.com/Shopify/go-lua"
+	"github.com/mtabini/go-lua"
 )
 
 func Open(l *lua.State) {

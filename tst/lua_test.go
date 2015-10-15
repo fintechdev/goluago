@@ -1,7 +1,7 @@
 package tst
 
 import (
-	"github.com/Shopify/goluago"
+	"github.com/mtabini/goluago"
 	"testing"
 )
 

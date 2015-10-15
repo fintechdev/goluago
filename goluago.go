@@ -1,18 +1,18 @@
 package goluago
 
 import (
-	"github.com/Shopify/go-lua"
-	"github.com/Shopify/goluago/pkg/crypto/hmac"
-	"github.com/Shopify/goluago/pkg/encoding/base64"
-	"github.com/Shopify/goluago/pkg/encoding/json"
-	"github.com/Shopify/goluago/pkg/env"
-	"github.com/Shopify/goluago/pkg/fmt"
-	"github.com/Shopify/goluago/pkg/net/url"
-	"github.com/Shopify/goluago/pkg/regexp"
-	"github.com/Shopify/goluago/pkg/strings"
-	"github.com/Shopify/goluago/pkg/time"
-	"github.com/Shopify/goluago/pkg/uuid"
-	"github.com/Shopify/goluago/util"
+	"github.com/mtabini/go-lua"
+	"github.com/mtabini/goluago/pkg/crypto/hmac"
+	"github.com/mtabini/goluago/pkg/encoding/base64"
+	"github.com/mtabini/goluago/pkg/encoding/json"
+	"github.com/mtabini/goluago/pkg/env"
+	"github.com/mtabini/goluago/pkg/fmt"
+	"github.com/mtabini/goluago/pkg/net/url"
+	"github.com/mtabini/goluago/pkg/regexp"
+	"github.com/mtabini/goluago/pkg/strings"
+	"github.com/mtabini/goluago/pkg/time"
+	"github.com/mtabini/goluago/pkg/uuid"
+	"github.com/mtabini/goluago/util"
 )
 
 func Open(l *lua.State) {
