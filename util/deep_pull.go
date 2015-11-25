@@ -136,7 +136,7 @@ func toGoValue(l *lua.State, idx int) (interface{}, error) {
 	case lua.TypeString:
 		return lua.CheckString(l, idx), nil
 	case lua.TypeNumber:
-		return lua.CheckInteger(l, idx), nil
+		return lua.CheckNumber(l, idx), nil
 	case lua.TypeTable:
 		return pullTableRec(l, idx)
 	case lua.TypeBoolean:
