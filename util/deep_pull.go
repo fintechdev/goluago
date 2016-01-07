@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mtabini/go-lua"
+	"github.com/telemetryapp/go-lua"
 )
 
 func Open(l *lua.State) {

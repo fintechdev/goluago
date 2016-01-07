@@ -3,7 +3,7 @@ package hmac
 import (
 	"crypto/hmac"
 	"crypto/sha256"
-	"github.com/mtabini/go-lua"
+	"github.com/telemetryapp/go-lua"
 )
 
 func Open(l *lua.State) {

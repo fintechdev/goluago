@@ -1,18 +1,18 @@
 package goluago
 
 import (
-	"github.com/mtabini/go-lua"
-	"github.com/mtabini/goluago/pkg/crypto/hmac"
-	"github.com/mtabini/goluago/pkg/encoding/base64"
-	"github.com/mtabini/goluago/pkg/encoding/json"
-	"github.com/mtabini/goluago/pkg/env"
-	"github.com/mtabini/goluago/pkg/fmt"
-	"github.com/mtabini/goluago/pkg/net/url"
-	"github.com/mtabini/goluago/pkg/regexp"
-	"github.com/mtabini/goluago/pkg/strings"
-	"github.com/mtabini/goluago/pkg/time"
-	"github.com/mtabini/goluago/pkg/uuid"
-	"github.com/mtabini/goluago/util"
+	"github.com/telemetryapp/go-lua"
+	"github.com/telemetryapp/goluago/pkg/crypto/hmac"
+	"github.com/telemetryapp/goluago/pkg/encoding/base64"
+	"github.com/telemetryapp/goluago/pkg/encoding/json"
+	"github.com/telemetryapp/goluago/pkg/env"
+	"github.com/telemetryapp/goluago/pkg/fmt"
+	"github.com/telemetryapp/goluago/pkg/net/url"
+	"github.com/telemetryapp/goluago/pkg/regexp"
+	"github.com/telemetryapp/goluago/pkg/strings"
+	"github.com/telemetryapp/goluago/pkg/time"
+	"github.com/telemetryapp/goluago/pkg/uuid"
+	"github.com/telemetryapp/goluago/util"
 )
 
 func Open(l *lua.State) {

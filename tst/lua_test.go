@@ -1,7 +1,7 @@
 package tst
 
 import (
-	"github.com/mtabini/goluago"
+	"github.com/telemetryapp/goluago"
 	"testing"
 )
 

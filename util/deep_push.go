@@ -2,7 +2,7 @@ package util
 
 import (
 	"fmt"
-	"github.com/mtabini/go-lua"
+	"github.com/telemetryapp/go-lua"
 	"reflect"
 )
 

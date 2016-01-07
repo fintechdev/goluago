@@ -1,6 +1,6 @@
 package util
 
-import "github.com/mtabini/go-lua"
+import "github.com/telemetryapp/go-lua"
 
 func PullVarargs(l *lua.State, startIndex int) ([]interface{}, error) {
 	top := l.Top()

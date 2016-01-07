@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/mtabini/go-lua"
+	"github.com/telemetryapp/go-lua"
 	"net/url"
 )
 

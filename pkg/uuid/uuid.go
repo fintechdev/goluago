@@ -2,7 +2,7 @@ package uuid
 
 import (
 	"code.google.com/p/go-uuid/uuid"
-	"github.com/mtabini/go-lua"
+	"github.com/telemetryapp/go-lua"
 )
 
 var library = []lua.RegistryFunction{

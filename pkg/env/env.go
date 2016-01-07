@@ -1,7 +1,7 @@
 package env
 
 import (
-	"github.com/mtabini/go-lua"
+	"github.com/telemetryapp/go-lua"
 	"os"
 )
 
